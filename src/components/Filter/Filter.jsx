@@ -19,6 +19,7 @@ class Filter extends Component {
           name="filter"
           value={this.state.filter}
           onChange={this.handleChange}
+          
         />
       </FilterLabel>
     );
